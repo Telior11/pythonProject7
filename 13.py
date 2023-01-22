@@ -6,10 +6,10 @@ while Visitors <= tickets != 0:
     age_for_ticket = int(input(f'Укажите для какого возраста приобретается билет № {Visitors} ? '))
     if age_for_ticket < 18:
         print('Билет бесплатный')
-    elif 18<= age_for_ticket < 25:
+    elif 18 <= age_for_ticket < 25:
         sum += 990
         print('Стоимость билета: 990 руб.')
-    elif age_for_ticket >= 25 :
+    elif 25 <= age_for_ticket:
         sum += 1390
         print('Стоимость билета: 1390 руб.')
     Visitors += 1
